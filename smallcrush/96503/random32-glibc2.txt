@@ -1,0 +1,354 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r =  0,    d = 1073741824,    t = 2,    p = 1
+
+
+      Number of cells = d^t = 1152921504606846976
+      Lambda = Poisson mean =      27.1051
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :      27.11
+Total observed number                 : 3344585
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.75
+
+Generator state:
+ 10000000  numbers have been read
+
+
+
+
+***********************************************************
+Test sknuth_Collision calling smultin_Multinomial
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r =  0,   d = 65536,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =         4294967296
+       Expected number per cell =  1 /  858.99346
+       EColl = n^2 / (2k) =  2910.383046
+       Hashing =   TRUE
+
+       Collision test,    Mu =      2909.2534,    Sigma =    53.8957
+
+-----------------------------------------------
+Test Results for Collisions
+
+Expected number of collisions = Mu    :     2909.25
+Observed number of collisions         :     2920
+p-value of test                       :    0.42
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :       4289970216
+  j =  1                              :          4994161
+  j =  2                              :             2918
+  j =  3                              :                1
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.92
+
+Generator state:
+ 10000000  numbers have been read
+
+
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 200000,  r = 22,   Alpha =        0,   Beta  = 0.00390625
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 1114
+Chi-square statistic                  : 1267.73
+p-value of test                       :  8.7e-4    *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:17.67
+
+Generator state:
+ 50603054  numbers have been read
+
+
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 400000,  r = 24,   d =   64,   k =   64
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   19
+Chi-square statistic                  :  252.13
+p-value of test                       :   eps      *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.79
+
+Generator state:
+ 25600000  numbers have been read
+
+
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 500000,  r = 26,   d =   16
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   44
+Chi-square statistic                  :   40.08
+p-value of test                       :    0.64
+
+-----------------------------------------------
+CPU time used                    :  00:00:11.00
+
+Generator state:
+ 24666389  numbers have been read
+
+
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N =  1,  n = 2000000,  r =  0,   d = 100000,   t =  6
+
+      Number of categories = 100000
+      Expected number per category  = 20.00
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 99999
+Chi-square statistic                  : 1.41e+5
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Anderson-Darling statistic            :    0.93
+p-value of test                       :    0.07
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:06.06
+
+Generator state:
+ 12000000  numbers have been read
+
+
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 200000,  r = 27,  k = 256,  Alpha =      0,  Beta =  0.125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   41
+Chi-square statistic                  :  101.81
+p-value of test                       :  4.4e-7    *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:19.93
+
+Generator state:
+ 51200000  numbers have been read
+
+
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 20000,  r = 20,    s = 10,    L = 60,    k = 60
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.25
+p-value of test                       :    0.74
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.39
+
+Generator state:
+ 7200000  numbers have been read
+
+
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 500000,  r = 20,   s = 10,   L = 300,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 2209
+Chi-square statistic                  : 2215.83
+p-value of test                       :    0.46
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.70
+
+Generator state:
+ 30000000  numbers have been read
+
+
+
+
+***********************************************************
+HOST = shantam-HP-ProBook-440-G4, Linux
+
+ufile_CreateReadText:   ./data/96503/random32-glibc2.txt
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,   s = 30,   L0 =  150,   L1 =  150
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   52
+ChiSquare statistic                   :   57.35
+p-value of test                       :    0.28
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   52
+ChiSquare statistic                   :   60.35
+p-value of test                       :    0.20
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   75
+ChiSquare statistic                   :   83.06
+p-value of test                       :    0.25
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   44
+ChiSquare statistic                   :   39.84
+p-value of test                       :    0.65
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   26
+ChiSquare statistic                   :   26.81
+p-value of test                       :    0.42
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.34
+
+Generator state:
+ 5000000  numbers have been read
+
+
+
+
+
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ File:             ./data/96503/random32-glibc2.txt
+ Number of statistics:  15
+ Total CPU time:   00:01:36.48
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  3  Gap                             8.7e-4
+  4  SimpPoker                        eps  
+  6  MaxOft                           eps  
+  7  WeightDistrib                   4.4e-7
+ ----------------------------------------------
+ All other tests were passed
+
+
+
